@@ -1,0 +1,17 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "version": "1.0.1",
+  "description": "HipChat",
+  "main": "index.js",
+  "author": "Stefan Malzner <stefan@adlk.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.notion.so/{teamId}",
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
+    "hasTeamId": true,
+    "hasCustomUrl": true
+  }
+}
